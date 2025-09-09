@@ -19,6 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 Windows.startApplicationWithTitle('C:\\Program Files (x86)\\SAP\\FrontEnd\\SapGui\\saplogon.exe', 'saplogon')
 
-Windows.doubleClick(findWindowsObject('Object Repository/Text'))
+if (Windows.getText(findWindowsObject('Object Repository/ComboBox')) == 'List View') {
+	Windows.doubleClick(findWindowsObject('Object Repository/FirstListItem-ListView'))
+} else {
+	Windows.doubleClick(findWindowsObject('Object Repository/FirstListItem-OtherView'))
+}
 
 Windows.delay(5)

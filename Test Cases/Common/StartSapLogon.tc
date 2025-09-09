@@ -4,5 +4,6 @@
    <name>StartSapLogon</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>65c14a16-128a-4be2-98ae-fcb48da093fc</testCaseGuid>
 </TestCaseEntity>
