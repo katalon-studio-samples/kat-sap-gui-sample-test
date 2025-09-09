@@ -3,8 +3,8 @@
    <description></description>
    <name>Text</name>
    <tag></tag>
-   <locator>//Window/Pane[1]/Pane[1]/Pane[2]/Pane[1]/List[1]/ListItem[1]/Text[1]</locator>
-   <locatorStrategy>XPATH</locatorStrategy>
+   <locator>ListViewSubItem-0</locator>
+   <locatorStrategy>ACCESSIBILITY_ID</locatorStrategy>
    <properties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -181,3 +181,4 @@
       <value>/Window/List[1]/ListItem[1]/Text[1]</value>
    </properties>
 </WindowsElementEntity>
+
