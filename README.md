@@ -31,5 +31,6 @@ com.jacob.com.ComFailException: Can't co-create object
 ```
 
 Solution:
-- Download new JVM/JRE 1.8 32 bit
+- Download new JVM/JRE 1.8 32 bit for KS v8 and JVM/JRE 17 32 bit for KS v9
 - Update the above JRE for the project by following this guide: https://docs.katalon.com/katalon-studio/how-to-guides/set-new-default-JRE.html
+
